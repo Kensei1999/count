@@ -9,5 +9,22 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    
+    int number ;
+    
+    IBOutlet UILabel *label ;
+    
+}
+
+-(IBAction)plus ;
+
+-(IBAction)minus ;
+
+-(IBAction)multiply ;
+
+-(IBAction)divide ;
+
+-(IBAction)clear ;
 
 @end
